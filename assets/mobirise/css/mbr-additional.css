@@ -895,6 +895,7 @@ a {
   height: 90px;
   padding: 0.5rem 0.6rem 0.5rem 1rem;
   flex-wrap: nowrap;
+  background: rgba(237, 239, 235, 0.8) !important;
   left: 0;
   right: 0;
   -webkit-box-pack: justify;
@@ -935,6 +936,7 @@ a {
   transition: 0.3s all !important;
   min-width: auto;
   background: #edefeb;
+  background: rgba(237, 239, 235, 0.8) !important;
 }
 .cid-u2PvCCYu0b .nav-item:focus,
 .cid-u2PvCCYu0b .nav-link:focus {
@@ -1261,6 +1263,9 @@ a {
     padding: 1rem;
     border-radius: 1.5rem;
     background: #edefeb;
+    opacity: 1;
+    border-color: rgba(237, 239, 235, 0.8) !important;
+    background: rgba(237, 239, 235, 0.8) !important;
     backdrop-filter: blur(8px);
   }
   .cid-u2PvCCYu0b .navbar-nav .nav-item .nav-link::after {
